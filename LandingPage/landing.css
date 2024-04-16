@@ -1,0 +1,51 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap"); */
+
+/* CSS Variables */
+/* :root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+} */
+
+body {
+  font-family: sans-serif;
+  background-color: #ffff;
+}
+
+.main {
+  width: 1200px;
+  height: 580px;
+  position: relative;
+  margin: 3% auto;
+  box-shadow: 2px 18px 70px 0px #9d9d9d;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.main-content {
+  box-sizing: border-box;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+align-items: first baseline;
+ position: absolute;
+}
+.main-icon{
+  position: relative;
+  right: 650px;
+  bottom: 100px;
+ 
+}
+.jet-icon{
+  width: 70px;
+}
+.main-text-img{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}

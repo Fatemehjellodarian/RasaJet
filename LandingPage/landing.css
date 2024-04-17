@@ -145,4 +145,24 @@ box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
 
 
 
+/* 
 
+@media (min-width: 1280px) {
+  .svg-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      height: 100vh;
+      padding: 20px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      z-index: 999;
+  }
+
+  .custom-svg {
+      width: 100px;
+      height: 100px;
+      margin-left: 20px;
+  }
+} */

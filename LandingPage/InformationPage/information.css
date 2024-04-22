@@ -1,0 +1,115 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 90%;
+  height: 80%;
+  background-color: #f6c634;
+  box-shadow: 2px 18px 70px 0px #9d9d9d;
+  overflow: hidden;
+  border-radius: 25px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 45%;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  gap: 35px;
+}
+input {
+  border: none;
+  overflow: hidden;
+  outline: none;
+  width: 85%;
+  height: 15%;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #c2c18bc5;
+  font-size: 12px;
+}
+
+button {
+  border: none;
+  overflow: hidden;
+  outline: none;
+  width: 86%;
+  height: 15%;
+  border-radius: 5px;
+  background-color: #f6c634;
+  color: #4b5563;
+  font-size: 18px;
+  font-weight: 400;
+}
+p {
+ font-size: 18px;
+ font-weight: 600;
+ color: #4b5563;
+}
+@media (max-width: 1180px) {
+  .main {
+    width: 90%;
+    height: 80%;
+    background-color: #f6c634;
+    box-shadow: 2px 18px 70px 0px #9d9d9d;
+    overflow: hidden;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+    height: 45%;
+    background-color: #f1f5f9;
+    border-radius: 12px;
+    gap: 35px;
+  }
+  input {
+    border: none;
+    overflow: hidden;
+    outline: none;
+    width: 80%;
+    height: 12%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #c2c18bc5;
+    font-size: 12px;
+  }
+
+  button {
+    border: none;
+    overflow: hidden;
+    outline: none;
+    width: 81%;
+    height: 12%;
+    border-radius: 5px;
+    background-color: #f6c634;
+    color: #4b5563;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  p {
+   font-size: 18px;
+   font-weight: 600;
+   color: #4b5563;
+  }
+}

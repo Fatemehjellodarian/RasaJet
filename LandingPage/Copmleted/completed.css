@@ -1,125 +1,171 @@
-body {
-  font-family: sans-serif;
-  background-color: #ffff;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+
+}
+body{
   height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.main {
-  width: 90%;
-  height: 75%;
-  background-color: #f6c634;
-  box-shadow: 2px 18px 70px 0px #9d9d9d;
-  overflow: hidden;
-  border-radius: 25px;
-  align-items: center;
+header {
+  background: #3498db;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+}
+nav {
+  font-weight: 700;
+}
+
+section {
+  background-image: url("../assets/images/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92.5%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.text-main {
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  border-radius: 10px;
+  width: 40%;
+  height: 23%;
+  background-color: #f3f3f3;
+  min-width: 250px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 50px;
+  margin: 0 auto;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 40%;
-  height: 40%;
-  background-color: #fff;
-  border-radius: 15px;
+  justify-content: space-around;
 }
-a {
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+
+h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  border: none;
-  overflow: hidden;
-  outline: none;
-  cursor: pointer;
-  width: 100%;
-  height: 60%;
-}
-
-button {
-  border: none;
-  overflow: hidden;
-  outline: none;
-  width: 70%;
-  height: 55%;
-  border-radius: 5px;
-  background-color: #fce133dc;
-  color: #4b5563;
-  font-size: 1rem;
+  color: #3498db;
+  font-size: 1.75rem;
   font-weight: 500;
-  cursor: pointer;
-  flex-wrap: wrap;
+  margin-right: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.payment {
+  color: #279309dc;
+  font-weight: 600;
+  margin-top: 90px;
+}
+p {
+  color: #3498db;
+  font-weight: 600;
+  font-size: 18px;
 }
 svg {
-  margin-bottom: 25px;
+  position: absolute;
+  bottom: 160px;
+}
+button {
+  background-color: #ddd;
+  padding: 7px;
+  width: 20%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #8a8a8a;
+  font-family: "poppins";
+  cursor: pointer;
+  margin-left: 1rem;
+  min-width: 50px;
+}
+button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+@media (min-width:1358px) {
+  .text {
+    display: none;
+   
+  }
+  .payment{
+    color: #279309dc;
+    font-weight: 900;
+    margin-top: 40px;
+  }
+svg{
+  position: absolute;
+  bottom: 110px;
+}
 
 }
 
-p {
-  font-weight: 600;
-  font-size: larger;
-}
-
-@media (max-width: 768px) {
-  body {
-    font-family: sans-serif;
-    background-color: #ffff;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .main {
-    width: 85%;
-    height: 55%;
-    background-color: #f6c634;
-    box-shadow: 2px 18px 70px 0px #9d9d9d;
-    overflow: hidden;
-    border-radius: 20px;
-    align-items: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .text-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 50%;
-    background-color: #fff;
-    border-radius: 9px;
-  }
-  button {
-    border: none;
-    overflow: hidden;
-    outline: none;
-    width: 70%;
-    height: 30px;
-    border-radius: 5px;
-    background-color: #fce133dc;
-    color: #4b5563;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    flex-wrap: wrap;
-    font-size: 11px;
-    font-weight: 400;
-  }
-
+@media (max-width: 1358px) {
   svg {
-    width: 45px;
-    height: 35px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .payment {
+    display: none;
+  }
+  .text {
+    color: #279309dc;
+    font-weight: 900;
+    margin-top: 40px;
+    font-size: 19px;
   }
   p{
     font-size: 15px;
-    font-weight:800;
   }
+}
+
+@media (max-width:630px){
+  svg {
+    width: 100px;
+    height: 100px;
+  }
+  .payment {
+    display: none;
+  }
+
+  .text {
+    color: #279309dc;
+    font-weight: 900;
+    margin-top: 70px;
+    font-size: 18px;
+  }
+  p{
+    font-size: 12px;
+  }
+  section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    border-radius: 10px;
+    width: 40%;
+    height: 25%;
+    background-color: #f3f3f3;
+    min-width: 250px;
+  }
+
 }

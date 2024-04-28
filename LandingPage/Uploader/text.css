@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  overflow: hidden;
+}
+
+header {
+  background: #3498db;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3498db;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-right: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+section {
+  background-image: url("../assets/images/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.section-tow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  border-radius: 10px;
+  width: 30%;
+  height: 25%;
+  background-color: #f3f3f3;
+  min-width: 250px;
+}
+button {
+  background-color: #ddd;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  color: #8a8a8a;
+  font-family: "poppins";
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #3498db;
+  color: #ddd;
+}

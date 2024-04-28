@@ -5,19 +5,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins";
-
 }
-body{
+body {
   height: 100vh;
-}
-
-header {
-  background: #3498db;
-  position: relative;
-  font-family: "Courier New", Courier, monospace;
-}
-nav {
-  font-weight: 700;
 }
 
 section {
@@ -25,7 +15,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 92.5%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,21 +91,19 @@ button:hover {
   background-color: #3498db;
   color: #fff;
 }
-@media (min-width:1358px) {
+@media (min-width: 1358px) {
   .text {
     display: none;
-   
   }
-  .payment{
+  .payment {
     color: #279309dc;
     font-weight: 900;
     margin-top: 40px;
   }
-svg{
-  position: absolute;
-  bottom: 110px;
-}
-
+  svg {
+    position: absolute;
+    bottom: 110px;
+  }
 }
 
 @media (max-width: 1358px) {
@@ -133,12 +121,12 @@ svg{
     margin-top: 40px;
     font-size: 19px;
   }
-  p{
+  p {
     font-size: 15px;
   }
 }
 
-@media (max-width:630px){
+@media (max-width: 630px) {
   svg {
     width: 100px;
     height: 100px;
@@ -153,7 +141,7 @@ svg{
     margin-top: 70px;
     font-size: 18px;
   }
-  p{
+  p {
     font-size: 12px;
   }
   section div {
@@ -167,5 +155,4 @@ svg{
     background-color: #f3f3f3;
     min-width: 250px;
   }
-
 }

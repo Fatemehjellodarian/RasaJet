@@ -8,22 +8,6 @@
   overflow: hidden;
 }
 
-header {
-  background: #3498db;
-  position: relative;
-  font-family: "Courier New", Courier, monospace;
-}
-
-h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #3498db;
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin-right: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-  }
 section {
   background-image: url("../assets/images/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg");
   background-position: center;

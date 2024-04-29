@@ -28,12 +28,12 @@ section {
   justify-content: left;
 }
 
-.content {
-  margin-top: 15%;
+/* .content {
+  margin-top: 6%;
   width: 40%;
   position: relative;
   font-family: "IRANYekanX-Black";
-}
+} */
 .content h2 {
   font-size: 4.5rem;
   color: #fff;
@@ -85,7 +85,6 @@ section {
 
 .fa-regular {
   background-color: #5989e38c;
-
   border-radius: 2px;
   width: 170px;
 }
@@ -122,31 +121,9 @@ section {
   align-items: center;
 }
 
-@media (max-width: 1470px) {
-  /* .content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    height: 90vh;
-    align-items: center;
-  } */
-  /* .content h2 {
-    font-size: 3.5rem;
-  }
-  .content button {
-    width: 50%;
-  }
-
-  .content .social_icons {
-    justify-content: space-evenly;
-    width: 100%;
-  } */
-}
-
 @media (max-width: 562px) {
   .container {
-    min-width: 280px;
+    max-width: 480px;
     padding: 0 50px;
     margin: 0 auto;
     display: flex;
@@ -190,17 +167,40 @@ section {
     margin-top: 19%;
   }
 
-  .content h1 {
-    font-size: 3rem;
-    color: #fff;
-    font-family: "IRANYekanX-Black";
-  }
-
   .content .social_icons {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 35%;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .item-one i {
+    background-color: #5989e38c;
+    border-radius: 2px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .svg-tow,
+  .item-tow {
+    background-color: #5989e38c;
+    border-radius: 2px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-regular,
+  .item-three {
+    background-color: #5989e38c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    width: 100vw;
   }
 
   section {
@@ -209,5 +209,225 @@ section {
     background-repeat: no-repeat;
     background-size: auto;
     height: 100vh;
+  }
+}
+
+@media (min-width: 562px) and (max-width: 1024px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+  }
+
+  .content {
+    margin-top: 15%;
+    width: 40%;
+    position: relative;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+  }
+  section {
+    background-image: url("../assets/images/Untitled-2.png");
+    background-position: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  h2,
+  p {
+    display: none;
+  }
+  h1 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    text-wrap: nowrap;
+    letter-spacing: 2px;
+    line-height: 100px;
+    margin-top: 75px;
+  }
+  .span {
+    font-size: 0.75rem;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    text-wrap: nowrap;
+
+    line-height: 25px;
+  }
+  .content .social_icons {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 85%;
+    border-radius: 6px;
+  }
+
+  .item-one {
+    background-color: #5989e38c;
+
+    width: 100vw;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-tow {
+    background-color: #5989e38c;
+
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-three {
+    background-color: #5989e38c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+  }
+
+  .item-one i {
+    display: none;
+  }
+  .svg-tow {
+    display: none;
+  }
+
+  .item-three i {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1,
+  span {
+    display: none;
+  }
+  .container {
+    max-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    
+  }
+
+  .content {
+    width: 40%;
+    position: relative;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    margin-top: 8%;
+ 
+  }
+  .content h2 {
+    font-size: 3.25rem;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    text-wrap: nowrap;
+    letter-spacing: -5.5px;
+  
+  }
+  .content p {
+    font-size: 1rem;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-style: normal;
+    text-wrap: balance;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-top: 19%;
+  }
+
+  .content a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #273d66;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .content .social_icons {
+    cursor: pointer;
+    margin-top: 30%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    position: relative;
+  }
+  .item-one i {
+    background-color: #5989e38c;
+    border-radius: 2px;
+    width: 170px;
+  }
+  .svg-tow {
+    background-color: #5989e38c;
+    border-radius: 2px;
+    width: 170px;
+  }
+
+  .fa-regular {
+    background-color: #5989e38c;
+    border-radius: 2px;
+    width: 170px;
+  }
+
+  .social_icons .item-one {
+    width: 350px;
+    height: 44px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social_icons .item-tow {
+    width: 350px;
+    height: 44px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social_icons .item-three {
+    width: 350px;
+    height: 44px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

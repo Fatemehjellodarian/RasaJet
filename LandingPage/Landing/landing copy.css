@@ -2,12 +2,17 @@
   font-family: "wolmart";
   src: url(../assets/fonts/wolmart87d5.woff);
 }
+@font-face {
+  font-family: "wolmart-bpld";
+  src: url(../assets/fonts/wolmart87d5.ttf);
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "wolmart";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  /* font-family: "wolmart" !important; */
   overflow: hidden;
 }
 
@@ -28,12 +33,6 @@ section {
   justify-content: left;
 }
 
-/* .content {
-  margin-top: 6%;
-  width: 40%;
-  position: relative;
-  font-family: "IRANYekanX-Black";
-} */
 .content h2 {
   font-size: 4.5rem;
   color: #fff;
@@ -328,7 +327,6 @@ section {
     align-items: center;
     justify-content: left;
     text-align: center;
-    
   }
 
   .content {
@@ -338,7 +336,6 @@ section {
       sans-serif;
     text-align: center;
     margin-top: 8%;
- 
   }
   .content h2 {
     font-size: 3.25rem;
@@ -348,7 +345,6 @@ section {
     font-style: normal;
     text-wrap: nowrap;
     letter-spacing: -5.5px;
-  
   }
   .content p {
     font-size: 1rem;

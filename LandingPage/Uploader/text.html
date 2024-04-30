@@ -8,25 +8,17 @@
   </head>
   <body>
     <section>
-      <!-- part 2-->
-      <div class="section-tow">
-        <input
-          type="text"
-          placeholder="...سفارش خود را وارد کنید"
-          style="
-            border: none;
-            outline: none;
-            width: 70%;
-            height: 70%;
-            background-color: #3498dbb8;
-            text-align: center;
-            color: #fff;
-            margin-top: 1.25rem;
-            border-radius: 9px;
-          "
-        />
-        <button type="submit">ارسال متن</button>
+      <div class="text-container" style="width: 70%">
+        <h1>سفارش خود را تایپ کنید</h1>
+        <textarea
+          placeholder="Enter here"
+          class="form-control my-2 textarea"
+          id="mybox"
+          rows="18"
+          cols="40"
+        ></textarea>
       </div>
+      <button class="btn btn-primary my-4 convert">Convert to Speech</button>
     </section>
   </body>
 </html>

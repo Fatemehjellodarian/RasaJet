@@ -1,107 +1,72 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap");
+/* @font-face {
+  font-family: "wolmart";
+  src: url(../assets/fonts/wolmart87d5.woff);
+}
+@font-face {
+  font-family: "wolmart-bpld";
+  src: url(../assets/fonts/wolmart87d5.ttf);
+} */
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "poppins";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  /* font-family: "wolmart" !important; */
   overflow: hidden;
 }
 
 section {
-  background-image: url("../assets/images/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg");
+  background-image: url("../assets/images/Capture.PNG");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-section div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  row-gap: 20px;
-  border-radius: 10px;
-  width: 30%;
-  height: 25%;
-  background-color: #f3f3f3;
-  min-width: 250px;
-}
-
 .container {
-  max-width: 1440px;
-  padding: 0 50px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: 45%;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  gap: 50px;
+  margin: 10%;
 }
 
 input {
-  text-align: center;
-  background-color: #3498db;
-  color: #fff;
   border: none;
+  border-bottom: 1px solid #5989e38c;
+  border-top: 1px solid #5989e38c;
   outline: none;
-  width: 70%;
-  height: 15%;
-  border-radius: 5px;
-  min-width: 150px;
+  width: 290px;
+  height: 35px;
+  min-width: 200px;
 }
 button {
-  background-color: #ddd;
-  padding: 7px;
-  width: 20%;
+  background-color: #4099ff;
+  border-radius: 5px;
+  width: 60%;
+  height: 10%;
   border: none;
   outline: none;
-  border-radius: 4px;
-  color: #8a8a8a;
-  font-family: "poppins";
   cursor: pointer;
-  margin-left: 1rem;
-  min-width: 50px;
-}
-button:hover {
-  background-color: #3498db;
+  font-size: 18px;
+  font-weight: 500;
   color: #fff;
 }
-
-@media (max-width: 1470px) {
-  .close-btn {
-    position: absolute;
-    top: 0;
-    left: 90%;
-    margin: 25px;
-  }
-}
-
-@media (max-width: 562px) {
-  .container h3 {
-    color: #fff;
-    margin-bottom: 30px;
-    font-family: "poppins";
-    font-size: 16px;
-    text-align: center;
-  }
-  .content button {
-    width: 100%;
-    height: 6.5%;
-    font-size: 0.75rem;
-    margin-top: 80px;
-  }
-
-  .content .social_icons {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 35%;
-  }
-  .social_icons i {
-    font-size: 1rem;
-    font-weight: 500;
-  }
-  section {
-    background-position: 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+h1 {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: rgba(101, 101, 101, 0.83);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  text-wrap: nowrap;
 }

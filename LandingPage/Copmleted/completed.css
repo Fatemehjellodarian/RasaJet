@@ -1,158 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "poppins";
-}
 body {
-  height: 100vh;
-}
-
-section {
-  background-image: url("../assets/images/ai-generated-dental-clinic-advertisment-background-with-copy-space-free-photo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
   display: flex;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  padding: 40px 0;
+  background: #ebf0f5;
 }
-section div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  row-gap: 20px;
-  border-radius: 10px;
-  width: 40%;
-  height: 23%;
-  background-color: #f3f3f3;
-  min-width: 250px;
-}
-
-.container {
-  max-width: 1440px;
-  padding: 0 50px;
-  margin: 0 auto;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 35px;
-}
-
 h1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #3498db;
-  font-size: 1.75rem;
-  font-weight: 500;
-  margin-right: 1rem;
-  font-family: "Times New Roman", Times, serif;
-}
-.payment {
-  color: #279309dc;
-  font-weight: 600;
-  margin-top: 90px;
+  color: #88b04b;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 p {
-  color: #3498db;
-  font-weight: 600;
-  font-size: 18px;
+  color: #404f5e;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
-svg {
-  position: absolute;
-  bottom: 160px;
+i {
+  color: #9abc66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
 }
-button {
-  background-color: #ddd;
-  padding: 7px;
-  width: 20%;
-  border: none;
-  outline: none;
+.card {
+  background: white;
+  padding: 60px;
   border-radius: 4px;
-  color: #8a8a8a;
-  font-family: "poppins";
-  cursor: pointer;
-  margin-left: 1rem;
-  min-width: 50px;
-}
-button:hover {
-  background-color: #3498db;
-  color: #fff;
-}
-@media (min-width: 1358px) {
-  .text {
-    display: none;
-  }
-  .payment {
-    color: #279309dc;
-    font-weight: 900;
-    margin-top: 40px;
-  }
-  svg {
-    position: absolute;
-    bottom: 110px;
-  }
-}
-
-@media (max-width: 1358px) {
-  svg {
-    width: 120px;
-    height: 120px;
-  }
-
-  .payment {
-    display: none;
-  }
-  .text {
-    color: #279309dc;
-    font-weight: 900;
-    margin-top: 40px;
-    font-size: 19px;
-  }
-  p {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 630px) {
-  svg {
-    width: 100px;
-    height: 100px;
-  }
-  .payment {
-    display: none;
-  }
-
-  .text {
-    color: #279309dc;
-    font-weight: 900;
-    margin-top: 70px;
-    font-size: 18px;
-  }
-  p {
-    font-size: 12px;
-  }
-  section div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    row-gap: 20px;
-    border-radius: 10px;
-    width: 40%;
-    height: 25%;
-    background-color: #f3f3f3;
-    min-width: 250px;
-  }
+  box-shadow: 0 2px 3px #c8d0d8;
+  display: inline-block;
+  margin: 0 auto;
 }

@@ -5,6 +5,8 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   overflow: hidden;
 }
+body {
+}
 
 section {
   text-align: center;
@@ -13,27 +15,55 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: #fff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
   text-wrap: nowrap;
   letter-spacing: -1px;
+  margin-bottom: 1%;
 }
 textarea {
-  border-radius: 7px;
+  border-radius: 8px;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  color: #4099ff;
+  font-size: 20px;
+}
+textarea:hover {
+  background-color: #eef3f8;
 }
 
 .text-container {
-  margin-left: 15%;
-  margin-top: 10%;
+  width: 90%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
-.h1 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+button {
+  position: absolute;
+  bottom: 10px;
+  background-color: #4099ff;
+  border-radius: 5px;
+  width: 20%;
+  height: 7.5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  place-items: center;
 }
